@@ -1,0 +1,3 @@
+def test_autograde(capsys):
+    import sjokolade
+    assert capsys.readouterr().out.lower() == '1\n2\nsjoko\n4\nlade\nsjoko\n7\n8\nsjoko\nlade\n11\nsjoko\n13\n14\nsjokolade\n16\n17\nsjoko\n19\nlade\nsjoko\n22\n23\nsjoko\nlade\n26\nsjoko\n28\n29\nsjokolade\n31\n32\nsjoko\n34\nlade\nsjoko\n37\n38\nsjoko\nlade\n41\nsjoko\n43\n44\nsjokolade\n46\n47\nsjoko\n49\nlade\nsjoko\n52\n53\nsjoko\nlade\n56\nsjoko\n58\n59\nsjokolade\n61\n62\nsjoko\n64\nlade\nsjoko\n67\n68\nsjoko\nlade\n71\nsjoko\n73\n74\nsjokolade\n76\n77\nsjoko\n79\nlade\nsjoko\n82\n83\nsjoko\nlade\n86\nsjoko\n88\n89\nsjokolade\n91\n92\nsjoko\n94\nlade\nsjoko\n97\n98\nsjoko\nlade\n'
